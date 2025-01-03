@@ -6,7 +6,9 @@ Python-skripti, joka hakee energiankulutustietoja Turku Energian energiaonline p
 **1. Vaatimukset**
 
   Python 3.10 tai uudempi
+  
   Home Assistant asennettuna, jossa on:
+  
   MQTT-integraatio (esim. Mosquitto broker)
 
 **2. Asenna tarvittavat kirjastot**
