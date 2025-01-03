@@ -16,18 +16,25 @@ Python-skripti, joka hakee energiankulutustietoja Turku Energian energiaonline p
   Aja seuraavat komennot:
 
   pip install playwright paho-mqtt schedule
+  
   playwright install
 
   playwright: Verkkosivun automatisointiin.
+  
   paho-mqtt: MQTT-viestien lähettämiseen Home Assistantiin.
+  
   schedule: Ajastamaan skripti toistuvasti.
 
 **3. Käyttöönotto**
 
   Muokkaa seuraavat arvot energiaonline.py -skriptissä:
+  
   Käyttäjänimi ja salasana: energiaonline-tunnukset
+  
   MQTT-palvelimen IP-osoite
+  
   MQTT-käyttäjänimi ja -salasana
+  
   Testaa skriptiä komennolla python3 energiaonline.py
 
   Tämän jälkeen voit tuoda energiasensorin mqtt.py -skriptin avulla Home Assistanttiin
