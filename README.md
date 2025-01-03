@@ -1,4 +1,4 @@
-# turkuenergia-energiaonline-homeassistant
+# turkuenergia-homeassistant
 Python-skripti, joka hakee energiankulutustietoja Turku Energian energiaonline palvelusta ja päivittää tiedot Home Assistanttin energiasensoriksi MQTT kautta. Sovellettavissa myös helposti muihin vastaaviin palveluihin, joista ei ole avointa API:a saatavilla.
 
 **Asennusohjeet**
